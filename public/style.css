@@ -1,0 +1,143 @@
+/* CSS Document */
+/*-------------------------------------------------
+GLOBALS & GENERAL CASES
+-------------------------------------------------*/
+* {margin:0;padding:0;}
+body {background:#104f94;font-family: 'Trebuchet MS', serif;font-size:12px;color:#000;}
+
+h1{font-family: 'Oswald', sans-serif; font-size:24px; text-transform: uppercase; font-weight:normal; color:#fff;}
+h2{font-family: 'Oswald', sans-serif; font-size:20px; text-transform: uppercase; font-weight:normal;}
+h3{font-family: 'Oswald', sans-serif; font-size:14px; text-transform: uppercase; font-weight:normal;}
+h4{ color:#ffc01d; font-size:15px; font-weight:normal; font-family: 'Trebuchet MS', serif;} 
+h6{ color:#ffc01d; font-size:14px; font-weight:normal;}
+
+p{ font-size:14px;}
+a{ color:#fff; text-decoration:none;}
+a:hover{ color:#ffc01d;}
+.clear{clear:both;}
+.title{ margin-bottom:30px;}
+.title h1{ color:#ffc01d;}
+.title h2{ color:#fff;}
+/*-------------------------------------------------
+body sytles start
+-------------------------------------------------*/
+.navbar-light .navbar-nav .nav-link {
+    font-size: 25px;
+}
+.border-bottom{border-bottom:none!important;}
+.marRight30{margin-right:30px;}
+.button a{ font-family: 'Oswald', sans-serif; font-size:14px; text-transform: uppercase; text-decoration:none; color:#104f94;}
+.button a:hover{ color:#fff;}
+
+
+.wrapper{ width:960px; margin:0 auto;}
+.page-wrapper{width:960px; margin:0 auto; margin-top:-30px;}
+.wrapper2{ width:960px; margin-bottom:60px; overflow:hidden;}
+/*-------------------------------------------------
+PANEL  
+-------------------------------------------------*/
+.services{ width:300px; float:left;}
+.services .ititle h1{ color:#ffc01d; margin-bottom:30px;}
+.services img{ margin-bottom:30px;}
+.services .content p{ color:#85aedb; font-size:14px;}
+.services .content .button{ background:url(../images/button2.png) no-repeat; width:80px; height:30px; text-align:center; line-height:30px; margin-top:30px; margin-bottom:70px;}
+
+/*-------------------------------------------------
+HEADESECTION 
+-------------------------------------------------*/
+
+h1{
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+}
+
+table {
+    background-color: #fff;
+}
+
+#status {
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+#status table {
+    margin: auto;
+    margin-top: 15px;
+    width: 50%;
+
+}
+
+#status table td{
+    padding: 5px;
+}
+
+/*-------------------------------------------------
+BANNER SECTION 
+-------------------------------------------------*/
+.banner-wrapper{background:#ff1d99; overflow:hidden;}
+.banner{width:960px; height: 600px; margin:0 auto; padding-top:60px; overflow:hidden;}
+.banner img{float:right; margin-top:-400px;}
+.banner .content{ float:left; overflow:hidden;}
+.banner .content{overflow:hidden; }
+.banner .content .title{ float:left;}
+.banner .content .title h1{ font-size:95px; color:#104f94; font-weight:normal; margin-top:75px;}
+.banner .content .title span{ color:#ffffff; font-size:32px;}
+.banner .content .button{ background:url(../images/button.png) no-repeat; width:170px; height:50px; text-align:center; line-height:50px; margin-top:50px; margin-bottom:116px;}
+.banner .content .button:hover{ background:url(../images/button-hover.png) no-repeat; width:170px; height:50px; text-align:center; line-height:50px; margin-top:50px; margin-bottom:116px;}
+.banner .content .button a{font-family: 'Oswald', sans-serif; font-size:20px; text-transform: uppercase; text-decoration:none; color:#ffc01d;}
+.banner .content .button a:hover{ color:#104f94;}
+
+/*-------------------------------------------------
+PAGE CONTENT SECTION 
+-------------------------------------------------*/
+
+.page-content{background:#1664b9; overflow:hidden;}
+.page{width:960px; margin:0 auto; margin-top:130px;}
+.panel{ width:100%; padding-bottom:30px;}
+.panel .title{ margin-bottom:30px;}
+.panel .title h1{ color:#ffc01d; text-transform:uppercase;}
+.panel .title h2{ color:#fff; font-size:16px;}
+.panel .content p{ color:#9ac5f5; padding-bottom:20px;}
+
+
+/*-------------------------------------------------
+SERIVES SECTION 
+-------------------------------------------------*/
+.serivces{width:960px; margin:0 auto; margin-top:130px;}
+.serivces .panel{ float:left;}
+
+
+/*-------------------------------------------------
+BOX SECTION 
+-------------------------------------------------*/
+.box{ width:300px; height: 300px; overflow:hidden; float:left; padding:30px;}
+.box .icon{text-align: center; margin-bottom: 20px ; box-sizing: border-box;}
+.box .content{ text-align: center;}
+.box .content h2{color:#ffffff;}
+.bg-color1{ background:#0a4689;}
+.bg-color2{ background:#064388;}
+.bg-color3{ background:#043e7f;}
+
+/*-------------------------------------------------
+FOOTER SECTION 
+-------------------------------------------------*/
+.footer-wrapper{background:#043e7f; overflow:hidden; padding-bottom:20px;}
+.footer{ width:960px; margin:0 auto; overflow:hidden; margin-top:60px;}
+.footer .panel{ float:left; width:300px;}
+.footer .panel .title h1{ margin-bottom:30px;}
+.footer .panel .contnet{margin-top:20px;}
+.footer .panel .contnet ul li{list-style:none;  border-bottom:#104f94 solid 1px;}
+.footer .panel .contnet ul li a{ color:#85aedb; text-decoration:none; line-height:40px; font-size:14px;}
+.footer .panel .contnet ul li a:hover{color:#ffc01d;}
+
+.footer .panel .contnet img{ float:left; margin-right:20px;}
+.footer .panel .contnet spna{ text-decoration:underline; color:#ffc01d;}
+.footer .panel .contnet p{ color:#85aedb; font-size:14px; padding-top:6px;}
+.phone{ margin-top:20px; padding-bottom:30px; margin-bottom:30px; border-bottom:#104f94 solid 1px;}
+.phone img{ float:left; margin-right:10px;}
+.phone h1{ color:#ffc01d;}
