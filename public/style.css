@@ -52,17 +52,34 @@ h1{
 
 form {
     background-color: #fff;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 90%;
 }
 
 table {
     background-color: #fff;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+}
+
+.table {
+    background-color: #fff;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
 }
 
 #status {
     font-size: 18px;
     text-align: center;
     margin: auto;
-    padding: 10px;
+    color: #fff;
 }
 
 #status table {
