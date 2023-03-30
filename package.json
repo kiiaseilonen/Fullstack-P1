@@ -1,0 +1,20 @@
+{
+  "name": "fullstack-p1",
+  "version": "1.0.0",
+  "description": "FullStack kurssin ensimmäinen projektityö.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\"git+https//github.com/kiiaseilonen/Fullstack-p1.git\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "package-list": "^0.0.3"
+  }
+}
