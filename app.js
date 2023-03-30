@@ -65,7 +65,6 @@ app.get("/ajaxmessage", function(req, res) {
 // POST-tyyppiseen sivupyyntöön reagoiva reitti
 app.post("/ajaxmessage", function(req, res) {
 
-  console.log(req.body);
   var username = req.body.username;
   var country = req.body.country;
   var message = req.body.message;
